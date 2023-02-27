@@ -17,3 +17,5 @@ jobs:
             ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MATEMATYKA_DYSKRETNA_LOSOWANIE
             }}
           projectId: matematyka-dyskretna-losowanie
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
